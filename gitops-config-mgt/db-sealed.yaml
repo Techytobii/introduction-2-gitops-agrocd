@@ -1,0 +1,21 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "db-secret",
+    "namespace": "default",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "db-secret",
+        "namespace": "default",
+        "creationTimestamp": null
+      }
+    },
+    "encryptedData": {
+      "password": "AgBxzC9C0Z3ak20BnGgermtDkAVfZnxgbDBYc1TXS2pdTxgPjMEb5513kYGZvg/7pUjO/NpJZdBTuXNDyURTxgP980tl68YmWMZFW69fT92y8OITzOV5kUskWHKOlZovF5PCJpbEBaLiHOMTv7syOK1xDvZ4Ksbqf9718No1sXd+4U+K2o1BliFZKtiS4pTcMpq70ndRHd3iDZcKNRTPJkI8hAqUzKFgnCZ0PUvtJzcFve5uR/NLep9+3+jglLSX5YuYMnVrhZsc6FNnvPRSdxtmwff8aCCjMuTHntQQG6DKMATMR4p4v3UpugvUt5I3WacJVTkdofsXgYvo79xNdvrVIuXfEWd8uLKvA2IW5ZCadu1QwEkDvuwgj2xR1XNreEclQabC+KUlrR2+gePuX9W0ApnYlUgwQuusb1QbAWU7Y7ralEWrCRCombjLdatDrx8KfM04nl8XDPTGSKNnJkjACt0Y02WnVKHCMBz/1lSY59xess54K4at6WoUENv0gXi/yekmpe7/THVSnflU5wEy1c7d1gjwMpiMvxxp4UliAL/0l7YkYUULH6eBNMzwIczJB/a0q5X35otzDQzI4DZzk+RyuCMKbOZEVmzslvxIhLCKb5WF6D1NSdPtRm6bCMBJ5+PAhxyW9xB3DvY5yUFZWhL+J9YBNKef28xOt3AALYVU6M7QhLjBw0wCpGNEQNnR1K6obMAoJ80JSrG+rA=="
+    }
+  }
+}
