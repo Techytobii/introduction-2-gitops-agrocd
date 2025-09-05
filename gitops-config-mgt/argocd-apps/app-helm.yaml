@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app-helm
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Techytobii/introduction-2-gitops-agrocd.git
+    targetRevision: HEAD
+    path: argocd-apps/my-app
+    helm:
+      releaseName: my-app
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
